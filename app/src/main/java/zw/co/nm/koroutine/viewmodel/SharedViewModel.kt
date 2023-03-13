@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.launch
 import zw.co.nm.koroutine.models.GetCharacterByIdResponse
-import zw.co.nm.koroutine.repository.SharedRepository
+import zw.co.nm.koroutine.domain.repository.SharedRepository
 
 class SharedViewModel : ViewModel() {
 
